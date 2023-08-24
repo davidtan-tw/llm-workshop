@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "llm-workshop"
+version = "0.1.0"
+description = ""
+authors = ["David Tan <davidtan@thoughtworks.com>, Vishal Srivastava <vishal.srivastava@thoughtworks.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.271"
+ctransformers = "^0.2.23"
+deepdiff = "^6.3.1"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
