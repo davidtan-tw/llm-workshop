@@ -2,7 +2,7 @@
 
 ## Setup (for running notebook on AWS Studio Lab)
 
-TODO
+See workshop participants doc
 
 ## Setup (for running notebook locally)
 
