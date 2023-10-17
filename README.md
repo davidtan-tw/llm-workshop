@@ -10,6 +10,10 @@ See workshop participants doc
 # install poetry (Python dependency manager)
 which poetry || pip install poetry
 
+# configure poetry to use a local venv:
+
+poetry config virtualenvs.in-project true
+
 # install dependencies
 poetry install
 

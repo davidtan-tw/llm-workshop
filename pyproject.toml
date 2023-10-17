@@ -2,12 +2,11 @@
 name = "llm-workshop"
 version = "0.1.0"
 description = ""
-authors = ["David Tan <davidtan@thoughtworks.com>, Vishal Srivastava <vishal.srivastava@thoughtworks.com>"]
+authors = ["David Tan <davidtan@thoughtworks.com>, Vishal Srivastava <vishal.srivastava@thoughtworks.com>, Oege Dijk <oege.dijk@thoughtworks.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-langchain = "^0.0.271"
 ctransformers = "^0.2.23"
 deepdiff = "^6.3.1"
 
