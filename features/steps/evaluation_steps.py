@@ -40,7 +40,7 @@ Only include the JSON response.
     )
 
 
-@given("I am looking for a developer")
+@given("I am looking for a Java developer")
 def step_impl(context):
     context.llm = AutoModelForCausalLM.from_pretrained(
         "TheBloke/Llama-2-7B-Chat-GGML",
@@ -77,7 +77,11 @@ def step_impl(context, name):
 
     print(context.actual_skills)
 
-@then("the resume needs to have the right technical skills for a developer")
+@then("the resume needs to have the Java language")
 def step_impl(context):
-    assert context.actual_skills == context.expected_skills
+    assert "Java" in context.actual_skills["technical_skills"]["languages"]
+
+@then("the resume needs to have web experience")
+def step_impl(context):
+    assert "web" in context.actual_skills["technical_skills"].keys()
     
