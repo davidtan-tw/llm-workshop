@@ -1,0 +1,8 @@
+fileignoreconfig:
+- filename: llm-workshop-prompt-injection.ipynb
+  checksum: 7b7dbb941d5b665258841e2fa9b1a24d64d81860191907ffe8340756a0679761
+- filename: llmops_and_crafts.ipynb
+  checksum: 94778d2f650937f4d7e969b8740ae5ab0969960c2c4d78bb21faff795c6286b6
+- filename: poetry.lock
+  checksum: 6bafec8b0761ce833b9a0ef9f8f90d00400c4f06980508d062c26a0d4fd4791a
+version: "1.0"
