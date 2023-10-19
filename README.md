@@ -50,7 +50,7 @@ Open `llmops_and_crafts.ipynb` and select the kernel in `.venv`:
 
 ![image](https://github.com/mlops-and-crafts/llm-workshop/assets/27999937/8d46aed6-c168-4c0a-990f-e2c21cae021d)
 
-### If you are on apple metal (M2, M2):
+### If you are on apple metal (M1, M2):
 
 run the cell with
 
@@ -59,6 +59,3 @@ run the cell with
 !CT_METAL=1 pip install ctransformers --no-binary ctransformers
 ```
 
-## Setup for Amazon Sagemaker
-
-TBD
