@@ -58,3 +58,7 @@ run the cell with
 !pip uninstall ctransformers -y
 !CT_METAL=1 pip install ctransformers --no-binary ctransformers
 ```
+
+## Setup for Amazon Sagemaker
+
+TBD
