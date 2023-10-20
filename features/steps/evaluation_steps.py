@@ -1,5 +1,6 @@
 from ctransformers import AutoModelForCausalLM
 import json
+import os
 
 
 def extract_json3(resume):
@@ -70,7 +71,9 @@ def step_impl(context):
 @when("I evaluate the resume of {name}")
 def step_impl(context, name):
     resume_file_name = name.lower().replace(" ", "_")+ ".txt"
-    with open(resume_file_name, "r") as f:
+    resume_file_loc = os.path.join("features", "resources", resume_file_name)
+    
+    with open(resume_file_loc, "r") as f:
         resume = f.read()
         
     context.actual_skills = json.loads(context.llm(extract_json3(resume)))

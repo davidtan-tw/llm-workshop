@@ -1,9 +1,0 @@
-Objective: Dedicated IT Developer with over 5 years of experience in full-stack
-web development, mobile application development, and cloud computing. Seeking
-to leverage my technical expertise and problem-solving skills to contribute to
-a forward-thinking team at WidgetCraft.
-
-Technical Skills:
-- Languages: Java, Python, JavaScript, C#
-- Web: HTML5, CSS3, Bootstrap, React, Angular, Node.js
-- Mobile: Android (Java, Kotlin), iOS (Swift)
