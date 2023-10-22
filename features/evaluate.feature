@@ -1,7 +1,8 @@
 
 Feature: showing off behave
-    Scenario: Evaluate a Java developer resumue
-        Given I am looking for a Java developer
+    Scenario: Evaluate John Doe
+        Given I am evaluating a resume
         When I evaluate the resume of John Doe
-        Then the resume needs to have the Java language
-        And the resume needs to have web experience
+        Then the applicant should have technical skills
+        And the applicant should know the Java language
+        And the applicant should have web experience
