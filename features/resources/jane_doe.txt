@@ -1,3 +1,4 @@
+
 Jane Doe, Marketing Manager
 
 Professional Experience:
@@ -18,3 +19,4 @@ business goals, resulting in a 95 percent client retention rate.
 Skills:
 - Marketing Strategy, Brand Development, Campaign Management, Team Leadership,
 Market Research, Digital Marketing, Data Analysis, Cross-functional Collaboration
+

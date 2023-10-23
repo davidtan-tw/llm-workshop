@@ -1,8 +1,8 @@
 
-Feature: showing off behave
+Feature: Extract correct skills from resume
     Scenario: Evaluate John Doe
         Given I am evaluating a resume
         When I evaluate the resume of John Doe
-        Then the applicant should have technical skills
-        And the applicant should know the Java language
-        And the applicant should have web experience
+        Then they should have technical skills
+        And they should know the Java language
+        And they should have web experience
